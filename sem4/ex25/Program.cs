@@ -6,4 +6,8 @@ for (int i = 1; i < b; i++) {
 return a;
 }
 
-int k = deg(2,5);
+Console.Write($"Ведите число: ");
+int k = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Ведите степень: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"{deg(k, n)}");
