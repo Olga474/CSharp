@@ -1,11 +1,9 @@
-﻿Console.Write("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+﻿int deg(int a, int b) {
 int a1 = a;
-Console.Write("Введите степень: ");
-int b = Convert.ToInt32(Console.ReadLine());
-
 for (int i = 1; i < b; i++) {
     a = a1*a;
 }
+return a;
+}
 
-Console.WriteLine($"{a1}^{b}={a}");
+int k = deg(2,5);
